@@ -33,7 +33,7 @@ function Invoke-Shellcode
                 ParameterSetName = 'Metasploit' )]
     [ValidateNotNullOrEmpty()]
     [String]
-    $Lhost = '192.168.1.17',
+    $Lhost = '127.0.0.1',
     
     [Parameter( Mandatory = $True,
                 ParameterSetName = 'Metasploit' )]
